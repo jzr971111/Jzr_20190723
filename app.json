@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#40e0d0",
+    "navigationBarTitleText": "江忠荣",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#f5f5f5", 
+    "selectedColor": "#ffff55",
+    "backgroundColor": "#40e0d0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "WeChat_logo/1.png",
+        "selectedIconPath": "WeChat_logo/1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "WeChat_logo/1.png",
+        "selectedIconPath": "WeChat_logo/1.png"
+      }
+    ]
+  }
+}
