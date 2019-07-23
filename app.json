@@ -1,31 +1,48 @@
 {
-  "pages":[
+  "pages": [
+    "pages/home/home",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/index11/index11",
+    "pages/index10/index10",
+    "pages/index9/index9",
+    "pages/index8/index8",
+    "pages/index7/index7",
+    "pages/index6/index6",
+    "pages/index5/index5",
+    "pages/index4/index4",
+    "pages/index3/index3",
+    "pages/index2/index2",
+    "pages/index1/index1",
+    "pages/lists/lists",
+    "pages/jzr/jzr",
+    "pages/resume/resume",
+    "pages/detail/detail"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#40e0d0",
     "navigationBarTitleText": "江忠荣",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
-    "color": "#f5f5f5", 
+    "color": "#f5f5f5",
     "selectedColor": "#ffff55",
     "backgroundColor": "#40e0d0",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/home",
         "text": "首页",
         "iconPath": "WeChat_logo/1.png",
         "selectedIconPath": "WeChat_logo/1.png"
       },
       {
-        "pagePath": "pages/logs/logs",
-        "text": "日志",
+        "pagePath": "pages/jzr/jzr",
+        "text": "关于个人",
         "iconPath": "WeChat_logo/1.png",
         "selectedIconPath": "WeChat_logo/1.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

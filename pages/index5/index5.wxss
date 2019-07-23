@@ -1,0 +1,8 @@
+/*导入功能*/
+@import"../../stylues/box.wxss";
+.box{
+  width: 500rpx;
+  height:90rpx;
+  background-color: pink;
+  font-size: 60rpx;
+}

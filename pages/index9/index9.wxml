@@ -1,0 +1,19 @@
+<!-- navigate保留当前页面，跳转到应用内的某个页面。但是不能跳到 tabbar 页面。-->
+<!-- 左上角可以返回上一个页面-->
+<navigator url="../index8/index8" open-type="navigate" >index8</navigator>
+<view class="date">{{navigator}}</view>
+
+<!-- redirect关闭当前页面，跳转到应用内的某个页面。但是不允许跳转到 tabbar 页面。-->
+<!-- 左上角不可以返回上一个页面-->
+<navigator url="../index8/index8" open-type="redirect">index8</navigator>
+<view class="date">{{redirect}}</view>
+
+<!-- switchTab跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面-->
+<!-- 只能跳转到首页-->
+<navigator url="../index/index" open-type="switchTab">首页</navigator>
+<view class="date">{{switchTab}}</view>
+
+<!-- reLaunch关闭所有页面，打开到应用内的某个页面-->
+<!-- 左上角不可以返回上一个页面-->
+<navigator url="../index8/index8" open-type="reLaunch">index8</navigator>
+<view class="date">{{reLaunch}}</view>

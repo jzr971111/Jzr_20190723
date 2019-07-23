@@ -1,0 +1,19 @@
+<view class="txt">
+  <view>原视频</view>
+  <video src="http://files.ak48.xyz/2018120195458.mp4" controls justify-content></video>
+</view>
+
+<view class="txt">
+  <view>60s时长</view>
+  <video src="http://files.ak48.xyz/2018120195458.mp4" controls duration='60'></video>
+</view>
+
+<view class="txt">
+<view>自动循环静音播放</view>
+<video src="http://files.ak48.xyz/2018120195458.mp4" controls autoplay loop muted show-mute-btn></video>
+</view>
+
+<view class="txt">
+<view>这个腾讯视频上的不能播放，还在研究！</view>
+<video src="http://v.youku.com/v_show/id_XMzg1NDIyNzY4NA==.html?spm=a2hzp.8244740.0.0" controls></video>
+</view>

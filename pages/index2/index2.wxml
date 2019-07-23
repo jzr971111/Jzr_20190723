@@ -1,0 +1,9 @@
+<view>
+  <checkbox checked='{{(isChecked) ? true : false}}'>三元运算</checkbox>
+</view>
+<view>
+  {{num1+num2}} - {{str1+str2}}
+</view>
+<view>
+  <checkbox checked='{{num3<10}}'>引号和大括号间不能有空格</checkbox>
+</view>

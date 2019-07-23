@@ -1,0 +1,4 @@
+<view>
+  <!--默认大小320*240-->
+  <image src='../../WeChat_logo/qiuhun.jpg' mode='aspectFit'></image>
+</view>

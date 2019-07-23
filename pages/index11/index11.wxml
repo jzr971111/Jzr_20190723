@@ -1,0 +1,3 @@
+<view>
+  <MyHeader>自定义的传入值</MyHeader>
+</view>

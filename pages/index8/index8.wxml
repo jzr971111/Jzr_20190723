@@ -1,0 +1,7 @@
+<swiper autoplay indicator-dots indicator-color="gray" indicator-active-color="aqua" interval="2000" circular>
+  <swiper-item> <image mode='widthFix' src='../../WeChat_logo/p1.jpg'></image> </swiper-item>
+  <swiper-item> <image mode='widthFix' src='../../WeChat_logo/p2.jpg'></image> </swiper-item>
+  <swiper-item> <image mode='widthFix' src='../../WeChat_logo/p3.jpg'></image> </swiper-item>
+  <swiper-item> <image mode='widthFix' src='../../WeChat_logo/p4.jpg'></image> </swiper-item>
+
+</swiper>

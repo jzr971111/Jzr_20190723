@@ -1,0 +1,21 @@
+
+<view class="headline">首页列表</view>
+
+<view>
+
+  <!--列表模板 begin-->
+  <template name="items">
+    <navigator url="{{url}}" >
+        <view class="title">{{title}}</view>
+    </navigator>
+  </template>
+  <!--列表模板 end -->
+
+  <!--循环视图输出列表 begin -->
+  <view class="list" wx:for="{{newsLists}}" wx:key="key" >
+    <template is="items" data="{{...item}}" />
+  </view>
+  <!--循环视图输出列表 end-->
+
+</view>
+

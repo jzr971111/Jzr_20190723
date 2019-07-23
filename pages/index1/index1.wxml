@@ -1,0 +1,15 @@
+<!--pages/index1/index1.wxml-->
+<!--变量的定义和使用-->
+<view>hello world || {{msg}}</view>
+<view>数值：{{num}}</view>
+<view>布尔类型：{{isBoy}}</view>
+<view>数组类型</view>
+<view>品牌：{{product.name}}
+  <view>价格：{{product.price}}</view>
+</view>
+<view>
+  <checkbox checked='{{true}}'> true </checkbox>
+  <view></view>
+  <checkbox checked='{{false}}'> false   </checkbox>
+</view>
+  

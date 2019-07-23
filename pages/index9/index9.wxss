@@ -1,0 +1,5 @@
+/* pages/index9/index9.wxss */
+.date {
+  font-size: 13px; 
+  color: #999;
+}

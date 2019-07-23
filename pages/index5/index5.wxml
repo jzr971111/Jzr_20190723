@@ -1,0 +1,9 @@
+<view class="lg_box">
+  样式文件
+</view>
+<view style="background-color:yellow; color:{{myColor}}">
+  style静态样式
+</view>
+<view class='{{myClass}}'>
+  class指定样式
+</view>

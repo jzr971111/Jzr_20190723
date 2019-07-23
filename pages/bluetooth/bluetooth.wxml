@@ -1,0 +1,10 @@
+<view>hello bluetooth</view>
+<view class='style1'>
+  <button class='btn_red'>红灯</button>
+  <button class='btn_green'>绿灯</button>
+  <button class='btn_blue'>蓝灯</button>
+</view>
+ 
+<view class='style2'><button class='btn'>警告</button></view>
+
+

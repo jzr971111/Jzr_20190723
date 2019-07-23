@@ -1,0 +1,9 @@
+/* pages/index10/index10.wxss */
+.txt{
+  font-size: 15xp;
+  color: #999;
+  text-align: center;
+}
+.video{
+  text-align: center;
+}

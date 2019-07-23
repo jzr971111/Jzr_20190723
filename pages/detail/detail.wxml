@@ -1,0 +1,9 @@
+
+<!--detail.wxml-->
+
+<view class='warp'>
+  <view class="title">{{info.title}}</view>
+  <view class="date">{{info.cTime}}</view>
+  <view class="imgs"><image  src='{{info.img}}' class='jzr_logo' mode='cover'> </image></view>
+  <view class="content">{{info.content}}</view>
+</view>

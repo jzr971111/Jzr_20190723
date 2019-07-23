@@ -1,0 +1,6 @@
+/* pages/index6/index6.wxss */
+/*按下的时候会变成设置的样式*/
+.hover_class{
+  background-color: aqua;
+  opacity: 0.5;
+}

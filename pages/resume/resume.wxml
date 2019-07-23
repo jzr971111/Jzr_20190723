@@ -1,0 +1,16 @@
+<!--jzr.wxml-->
+
+<view class='jzr_style'>
+  <view class='jzr_piece1'> 
+    <view><image  src='{{jzrLogo}}' class='jzr_logo' mode='cover'> </image></view>
+    <view class='jzr_title'>{{title}}</view>
+  </view>
+
+  <view class='jzr_explain'>{{explain}}</view>
+    
+  <view class='jzr_piece2'>
+    <view>{{contact}}</view>
+    <view>这是QQ号：{{jzrQQ}}</view>
+    <view>这是电话：{{jzrPhone}}（微信同号）</view>
+  </view>  
+</view>

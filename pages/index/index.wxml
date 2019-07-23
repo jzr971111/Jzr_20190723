@@ -1,13 +1,32 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<!--
+<navigator url="../index1/index1" open-type="navigate" >index1</navigator>
+<navigator url="../index2/index2" open-type="navigate" >index2</navigator>
+<navigator url="../index3/index3" open-type="navigate" >index3</navigator>
+<navigator url="../index4/index4" open-type="navigate" >index4</navigator>
+<navigator url="../index5/index5" open-type="navigate" >index5</navigator>
+<navigator url="../index6/index6" open-type="navigate" >index6</navigator>
+<navigator url="../index7/index7" open-type="navigate" >index7</navigator>
+<navigator url="../index8/index8" open-type="navigate" >index8</navigator>
+<navigator url="../index9/index9" open-type="navigate" >index9</navigator>
+<navigator url="../lists/lists" open-type="navigate" >列表</navigator>
+-->
+<view class="headline">小程序学习模拟列表</view>
+
+<view>
+
+  <!--列表模板 begin-->
+  <template name="items">
+    <navigator url="{{url}}" >
+        <view class="title">{{title}}</view>
+    </navigator>
+  </template>
+  <!--列表模板 end -->
+
+  <!--循环视图输出列表 begin -->
+  <view class="list" wx:for="{{newsLists}}" wx:key="key" >
+    <template is="items" data="{{...item}}" />
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <!--循环视图输出列表 end-->
+
 </view>
+

@@ -1,0 +1,7 @@
+/* pages/index7/index7.wxss */
+image{
+  width: 100%;
+  height: 500rpx;
+  border: 2rpx solid red;
+
+}

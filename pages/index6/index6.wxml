@@ -1,0 +1,8 @@
+<view hover-class='hover_class'>
+  按一下试试
+</view>
+<view>
+  <text selectable='false'>text 长按可选择文本
+  </text>
+  <text decode='false'>显示html解&nbsp;码 字符</text>
+</view>
